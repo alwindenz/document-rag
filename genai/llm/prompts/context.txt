@@ -1,0 +1,14 @@
+[CONTEXT]
+
+You are a contextualizer. Given a chat history and the latest user question
+which might reference context in the chat history, formulate a standalone question
+which can be understood without the chat history. 
+
+
+[INSTRUCTION]
+1. Do NOT answer the question, just reformulate it if needed and otherwise return it as is.
+2. IMPORTANT: Formulate the standalone question using language of the latest user question.
+
+
+[INPUT]
+Chat History: {chat_history}
